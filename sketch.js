@@ -9,14 +9,14 @@ var winImg, winSign;
 
 function preload(){
 //add image of the main maze and add images to all characters and the stone
-backdropImg = loadImage("images/11406_original.png");
-thanosImg = loadImage("images/thanos.png");
-powerImg = loadImage("images/power.png");
-novaImg = loadImage("images/Nova.png");
-coin_spinning = loadAnimation("images/coin1 (1).png", "images/coin2 (1).png", "images/coin3 (1).png", "images/coin4 (1).png", "images/coin5 (1).png", "images/coin6 (1).png ", "images/coin7 (1).png ", "images/coin8 (1).png ", "images/coin9 (1).png ")
-coinSound = loadSound("sounds/coin_collect.mp3");
-dieSound = loadSound("sounds/dying.mp3");
-winImg = loadImage("images/win.png");
+backdropImg = loadImage("11406_original.png");
+thanosImg = loadImage("thanos.png");
+powerImg = loadImage("power.png");
+novaImg = loadImage("Nova.png");
+coin_spinning = loadAnimation("coin1 (1).png", "coin2 (1).png", "coin3 (1).png", "coin4 (1).png", "coin5 (1).png", "coin6 (1).png ", "coin7 (1).png ", "coin8 (1).png ", "coin9 (1).png ")
+coinSound = loadSound("coin_collect.mp3");
+dieSound = loadSound("dying.mp3");
+winImg = loadImage("win.png");
 
 
 
